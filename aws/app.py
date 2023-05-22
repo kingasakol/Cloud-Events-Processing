@@ -1,8 +1,5 @@
-from cloudevents.http import CloudEvent, to_structured
-from config import EVENT_URL
-import os
-import requests
-
+from cloudevents.http import CloudEvent
+from ..gcp.cloud_function_wrapper import CloudFunctionWrapper
 
 def lambda_handler(event, context):
     attributes = {
@@ -12,8 +9,6 @@ def lambda_handler(event, context):
     data = event
 
     cloudevent = CloudEvent(attributes, data)
-    headers, body = to_structured(cloudevent)
-
-    requests.post(EVENT_URL, data=body, headers=headers)
+    CloudFunctionWrapper().publish_message(cloudevent)
 
     return {"statusCode": 200}

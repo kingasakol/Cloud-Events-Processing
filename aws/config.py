@@ -1,1 +1,0 @@
-EVENT_URL = "https://api.npoint.io/9710ea1da2693cda58d3"
