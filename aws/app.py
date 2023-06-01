@@ -1,5 +1,5 @@
 from cloudevents.http import CloudEvent
-from ..gcp.cloud_function_wrapper import CloudFunctionWrapper
+from cloud_function_wrapper import CloudFunctionWrapper
 
 def lambda_handler(event, context):
     attributes = {
