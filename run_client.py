@@ -25,4 +25,4 @@ if __name__ == "__main__":
             lambda_client = boto3.client('lambda')
 
             wrapper = Lambda_Wrapper(lambda_client)
-            wrapper.invoke_function("processImage", base64_data, False)
+            wrapper.invoke_function("processImage", { "payload": base64_data }, False)

@@ -6,8 +6,7 @@ def lambda_handler(event, context):
         "type": "image",
         "source": "aws.lambda",
     }
-    data = event
 
-    cloudevent = CloudEvent(attributes, data)
+    cloudevent = CloudEvent(attributes, event)
     
     return CloudFunctionWrapper().publish_message(cloudevent)
