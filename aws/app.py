@@ -9,6 +9,5 @@ def lambda_handler(event, context):
     data = event
 
     cloudevent = CloudEvent(attributes, data)
-    CloudFunctionWrapper().publish_message(cloudevent)
-
-    return {"statusCode": 200}
+    
+    return CloudFunctionWrapper().publish_message(cloudevent)
