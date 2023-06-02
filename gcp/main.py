@@ -43,8 +43,8 @@ def process_image(event, context):
     # Dekodowanie obrazka z base64
     image_data = base64.b64decode(image_base64)
 
-    aws_access_key_id=ASIAQKDKYKMDJZW7FVHB
-    aws_secret_access_key=dy0QAYdxEdRwvN4ij5frxeL+dkjsbQSDWMzmMcjW
+    aws_access_key_id=*******************
+    aws_secret_access_key=******************************
 
     # Kompresowanie obrazka do archiwum ZIP
     zip_data = compress_image_to_zip(image_data)
