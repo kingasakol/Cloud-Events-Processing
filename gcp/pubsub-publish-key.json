@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "suu-cloudevents",
+  "private_key_id": "0eb81b8693fa9f7b3c263f3e3ab7450c6ca8eedf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDtBlnDZYAEIPCU\nF3zqclrU+vgIPQW6MQoWG2Cnq8VRQcZv9AByUXIutwTWRhKPkWYm2F1meCKtDSnj\nYYiN9uwkoQxsSKn0OVFJ6tv3cTen/gqC/AHoCpZ75JZXjQ5GcwsQv39JPTJ6JClQ\nv0iTWOLyB/F6w4zI/LT7620FRrCbWh8r04VEQIvxykw85sOveZPZBs5aMdmG5cRE\nKCbfv+PpMDuV8dCCWxWKZP2uhVyg1jTAPNjZxIWe8GF0yZXTp4Nl5pR+9bGWbwso\nWfVybcfP9gScPUy5Ll1QuNyjGrV+uTDaPT3H+K81w9jyyRWA7UZ27BVfsvVNpy+3\nFddotV8vAgMBAAECggEAV6ihGvQXV6+M+eAD6Tr4n8rfX0CeNSF8zvc6FFihBW+z\ngWT2o1C+z0sNhWdt5t3JrzUWudZVULXNF5RTKdm3tMZA720iObnW9+TdjBI5mK4J\n2i50UApWZCSCe4elz2UtoviHjSEOYYCtLPlJUIEvkX5hjtryXsSi9IY5kBl4KEOC\neDgri7/vEc9u/a4HCQ6iHLT4hNP57nEa1NOnQwh/4Alwuu9T4faUcaa41QY7Kty3\nDVQef35C0s1xBIDICQuqIKWXXSjZ67UqzZeeFfJgxnE1VlTuZq7VlwVI/p7DbUUR\nRo4cGp3MGrAkJ3o4YKpKpbT5GQSm0vr4QYUQ1QdswQKBgQD+HlbClhXMrIA+uWRJ\n6xAAl4WWWEL4qTenL845ohNHO9AWQEEogsDjx4yEIMJk9Ua2tCLBd5vDVOiNae3q\naqb33Jy6XtYjhnT5A2yuj++LefujUaHQTdODj8dGMSiSMTOgQVC1ZfGl9+07MAzI\nDOdJwYdTYTnQ3/y1amh17sd/wQKBgQDux5yr0x/Hv95DTjZ/92DVUC9trQo4ld4j\nBCIdi3+pFl7avFEIpkoKC4WgInnWotUHdzHqhQBBSwPtbzSz6MPXs7AapEZJFJYW\n6QpTgX2hnOXSunvrKC60BvjX/U+FygidOnfISsVLg451FE7u3XlcBB9fMMcwCkHX\nYkHzEFua7wKBgHNrxk51qwse4tUakcG9QbRzHhsOlcSp33xRi2LECeuV8Era/n1u\n/ju3XEx7MLB4c5jyssKbGCWdgE8S6RxLOvFjw9Am2S6jmKet9YRIHi6ExlYE8vFR\nGBwuhv2LwHi+XkuQvx7VYe/Xb2otxfBrY/YtL9EgXQlRY0/nN/Ew9m5BAoGBAKkK\nb4PFBy6mSndjm3mka80X4zvF0QKWNpibiHtaEppl1+kKgGObNbc+yO7A+XhV9nI+\nk/vvBGs07CbfH3RuSJcgAoAZ5BhAlrDJciID/ii3pow0sR2daNLSTMC799xDVy3Y\nAoytQldfXy7LncXEzPGziXIeWiVMXahZS08EOZXJAoGBAKFxNhZPwyJl02TjpjPt\nJOfY8+lWcJJA+QNpf96TbU0Lr9WWuJNvGNNNva3kloH6F7zfGqokGmbVRJxo81zL\ny4xSppqcxmvsstbK2HrK1y+ZKq6U34Dijvs9d9f8c7Og25ovPm9Ldphg6QLPnzHC\nKqK7NLPEN1v+ZbXGFW1tb3Bw\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub-topic-238@suu-cloudevents.iam.gserviceaccount.com",
+  "client_id": "109146728164350505508",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-topic-238%40suu-cloudevents.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
